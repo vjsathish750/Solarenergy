@@ -1,0 +1,276 @@
+section{
+    padding: 75px 0;
+}
+.Fistsec{
+    background-image: url("../Assets/Solor-img-9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.content-part {
+    background-color: #ffff;
+    padding: 50px 25px;
+    margin: 20px 10px;
+    height: 400px;
+    box-shadow: rgb(255 144 0) -5px 5px,
+    rgb(255 144 0) -10px 10px,
+     rgb(255 144 0) -15px 15px,
+      rgb(255 144 0) -20px 20px, 
+       rgb(255 144 0) -20px 20px;
+}
+.content-part h1{
+    font-size: 67px;
+    padding: 10px;
+}
+.oran{
+    background-color: #f97c37;
+}
+.contenttwo{
+    padding: 100px 0;
+    height: 250px;
+}
+.contenttwo h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.contenttwo p{
+    font-size: 20px;
+    color: white;
+}
+.Thirdsection {
+    background-image: linear-gradient(to bottom, #f97c37, #f97c37, #ffffff45, #ffffff, #ffffff);
+   
+}
+.img-part{
+    position: relative;
+}
+
+.img-part img{
+    width: 100%;
+    margin: 10px;
+}
+.icon-details{
+    position: absolute;
+    bottom: -120px;
+}
+.icon-part{
+    background-color: #c4bfbf9e;
+    color: #000;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+.icon-part img{
+    width: 80px;
+}
+.Thirdsection .top{
+    margin: 0 0 160px 0;
+}
+.cardimg Img{
+    height: 400px;
+    border-radius: 0px;
+}
+.cardimg {
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px; 
+}
+.cardimg .card-title{
+    font-size: 30px;
+}
+.cardimg .card-text{
+    font-size: 20px;
+}
+.cardimg a p{
+    font-size: 25px;
+}
+.fluid-content .col-md-6{
+    padding: 0;
+}
+.fluid-content img{
+    width: 100%;
+}
+.fluid-content .fluid-content{
+    padding: 15px 20px;
+}
+.fluid-content .row{
+    display: flex;
+    align-items: center;
+}
+.homes{
+    font-size: 56px;
+    padding: 35px 176px;
+}
+.solarpanel{
+    font-size: 24px;
+    text-align: center;
+}
+.imgeleven img{
+    width: 400px;
+    height: 350px;
+    
+
+}
+.smallbox{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: -60px 47px;
+    box-shadow: 0px 0px 23px -12px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.smallbox h5{
+    font-size: 28px;
+}
+.smallbox Button{
+    font-size: 20px;
+    width: 200px;
+}
+.learn{
+    margin-top: 120px;
+    width: 220px;
+    height: 60px;
+    margin-bottom: 60px;
+    
+}
+.backc{
+    background-color: #e5e5e5;
+}
+
+
+.energy h1{
+    font-size: 50px;
+    padding:50px 43px 240px 0px;
+    border-right: 14px solid orange;
+}
+.learntwo{
+    width: 220px;
+    height: 60px;
+    margin-top: 30px;
+}
+.rimg{
+    width: 455px;
+    height: 530px;
+}
+.orange{
+    background-color: #f97c37;
+    height: 800px;
+    padding-top: 20px;
+    margin-top: 350px;
+    position: relative;
+}
+.whitebox{
+    background-color: white;
+    width: 83%;
+    height: 300px;
+    position: absolute;
+    top: -93px;
+    left: 124px;
+    box-shadow: 0px 25px 39px 0px #ffa5008f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whitebox p{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 90px;
+}
+.learnthree{
+    width: 220px;
+    height: 60px;
+}
+.touch{
+    padding-top: 350px;
+}
+.touch button {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #5a2b11;
+    border: white;
+    border-radius: 14px;
+    width: 50%;
+    height: 55px;
+    font-size: 20px;
+}
+.touch button:hover{
+    background-color: #efe4de96;
+}
+.get{
+    text-align: center;
+}
+.get h1{
+    font-size: 70px;
+    color: white;
+}
+.get input {
+    width: 75%;
+    height: 50px;
+    border: white;
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+.accordian-part button{
+    width: 100%;
+    border-radius: inherit;
+    margin: 0;
+    background: #ffff;
+    color: #000;
+    margin: 5px 0;
+}
+.accordian-part button:focus{
+   box-shadow: none;
+   border: none;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .homes {
+        font-size: 13px;
+        padding: 35px 70px;
+    }
+    .imgeleven img {
+        width: 291px;
+        height: 290px;
+    }
+    .smallbox {
+        background-color: white;
+        width: 269px;
+        height: 200px;
+        margin: -43px 12px;
+    }
+    .rimg {
+        width: 293px;
+        height: 370px;
+        margin-top: 30px;
+    }
+    .whitebox {
+        background-color: white;
+        width: 83%;
+        height: 300px;
+        position: absolute;
+        top: -100px;
+        left: 27px;
+    }
+    .whitebox p {
+        font-size: 14px;
+        text-align: center;
+        padding: 3px 10px;
+    }
+    .whitebox h1{
+        font-size: 22px;
+    }
+    
+    
+  }

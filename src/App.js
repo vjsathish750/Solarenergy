@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import OffcanvasExample from './Menubar/Header';
+import Firstsection from './Sections/Firstsection';
+import Secondsec from './Sections/Secondsec';
+import Thirdsection from './Sections/Thirdsection';
+import Fourthsection from './Sections/Fourthsection';
+import Fifthsection from './Sections/Fifthsection';
+import Sixthsection from './Sections/Sixthsection';
+import Seventhsection from './Sections/Seventhsection';
+import Eightsection from './Sections/Eightsection';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <OffcanvasExample/>
+      <Firstsection/>
+      <Secondsec/>
+      <Thirdsection/>
+      <Fourthsection/>
+      <Fifthsection/>
+      <Sixthsection/>
+      <Seventhsection/>
+      <Eightsection/>
     </div>
   );
 }
 
 export default App;
+
